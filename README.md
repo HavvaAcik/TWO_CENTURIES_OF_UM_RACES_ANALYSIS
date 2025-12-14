@@ -29,4 +29,41 @@ The following data preparation steps were performed:
   - Year 2020
 - Cleaned event names by removing country tags
 - Created a new feature: `athlete_age`
-- Cle
+- Cleaned performance time format
+- Removed unnecessary columns
+- Handled missing values
+- Checked for duplicates
+- Converted data types for analysis
+- Renamed columns for better readability
+
+---
+
+## 📊 Exploratory Data Analysis
+Several visualizations were created to explore performance trends:
+
+- Distribution of race distances
+- Gender-based comparison of race participation
+- Speed distribution for 50-mile races
+- Violin plots showing speed differences by race length and gender
+- Relationship between athlete age and average speed using regression analysis
+
+---
+
+## 📈 Key Findings
+- Male and female athletes show noticeable differences in average speed across both race distances.
+- Athlete performance varies with age, with peak average speeds observed in specific age ranges.
+- 50-mile races show different speed distributions compared to 50 km races, indicating the impact of race length on performance.
+
+---
+
+## 🛠 Tools & Technologies
+- Python
+- Pandas
+- Seaborn
+- Jupyter Notebook
+
+---
+
+## 📌 Notes
+This project is intended as a **portfolio demonstration of data cleaning, exploration, and visualization skills**.
+
